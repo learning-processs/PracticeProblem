@@ -17,7 +17,7 @@ public class CombinationSum {
             return;
         }
 
-        if( target < 0 ||index == candidates.length){
+        if( target < 0 || index == candidates.length ){
             return;
         }
 
