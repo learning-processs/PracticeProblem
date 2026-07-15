@@ -12,7 +12,7 @@ public class ZigzagConversion {
             rows[i] = new StringBuilder();
         }
 
-        int currentRow = 0;
+        int currentRow = 0 ;
         boolean goingDown = true;
 
         for(char c : s.toCharArray()){
