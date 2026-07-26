@@ -22,7 +22,7 @@ public class TwoRepeated {
          int ans[] = twoRepeated(arr);
 
          for(int i : ans){
-            System.out.print(i + " , ");
+            System.out.print(i + " ");
          }
     }
     
