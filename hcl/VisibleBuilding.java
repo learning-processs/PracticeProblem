@@ -15,7 +15,6 @@ public class VisibleBuilding {
         return ans;
     }
 
-    
     public static void main(String[] args) {
         int arr[] = {6, 2, 8, 4, 11, 13};
         
