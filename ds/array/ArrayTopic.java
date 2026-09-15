@@ -25,8 +25,9 @@ public class ArrayTopic {
 class MultiDimention {
 
     public static void main(String[] args) {
-        int[][] matrix = { { 1, 2, 4 },
-                           { 5, 6, 7 },
-                         };
+        int[][] matrix = {
+                { 1, 2, 4 },
+                { 5, 6, 7 },
+        };
     }
 }
