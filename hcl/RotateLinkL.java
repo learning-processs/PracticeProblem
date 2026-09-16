@@ -12,6 +12,7 @@ class Node {
 }
 
 public class RotateLinkL {
+
     static Node rotate(Node head, int k) {
         if (k == 0 || head == null || head.next == null) {
             return head;
