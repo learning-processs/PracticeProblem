@@ -1,16 +1,18 @@
 public class RemoveChar {
 
-    public static String removeCharsFromWords(String s1, String s2) {
+    public static String removeCharsFromWords(String s1, String s2){
 
-        StringBuilder sb = new StringBuilder();
+        StringBuilder result = new StringBuilder();
 
-        for (char ch : s1.toCharArray()) {
+        for(char ch : s1.toCharArray()){
 
-            if (s2.indexOf(ch) == -1) {
-                sb.append(ch);
+            if(s2.indexOf(ch) == -1){
+                result.append(ch);
             }
         }
-        return sb.toString();
+
+        return result.toString();
+       
     }
 
     public static void main(String[] args) {
